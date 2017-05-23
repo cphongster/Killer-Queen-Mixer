@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KQ Mixer Cha0s ver.</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+<div class="container-fluid">
+
+
+<!-- NAV BAR -->
+<div class="row">
+<nav class="navbar navbar-default">
+<div class="col-md-2 col-md-offset1">
+	<a href="#" class="textButtons" id="matchesButton">Matches</a></div>
+<div class="col-md-6" id="siteTitle">KQ Mixer</div>
+<div class="col-md-2">
+	<a href-="#" class="textButtons" id="addPlayerButton">Add Player</a>
+</div>
+
+<!-- <h1>
+	<ul class="nav navbar-nav">
+		<li><a href="#" class="textButtons">Matches</a></li>
+		<li id="siteTitle">KQ Mixer</li>
+		<li><a href-="#" class="textButtons">Add Player</a></li>
+	</ul>
+</h1> -->
+
+</nav>
+</div> <!-- /DIV NAV ROW -->
+
+<div class="row">
+
+<div class="col-md-10">
+<!-- FORM -->
+<form class="form-horizontal col-md-5" id="newPlayerForm">
+	<div id="newPlayerFormTitle"><h2> New Player</h2></div>
+  	<div class="form-group">
+  		<label for="playerName" class="col-md-2 control-label">Name</label>
+  		<div class="col-md-10">
+  			<input type="text" class="form-control" id="playerName" placeholder="Name" required>
+  		</div>
+  	</div>
+  	<div class="form-group">
+  		<div class="col-sm-4 formPosPrefs">
+  		<label for="queenPick">Queen?</label>
+  		<select multiple class="form-control" id="queenPick" required>
+  			<option>Most of the Time</option>
+  			<option>Sometimes/Can Queen</option>
+  			<option>Literally Never</option>
+  		</select>
+  		</div>
+
+  		<div class="col-sm-4 formPosPrefs">
+  		<label for="position1">Preferred Position</label>
+  		<select multiple class="form-control" id="position1" required>
+  			<option>Queen</option>
+  			<option>Speed Warrior</option>
+  			<option>Flex/Vanilla Warrior</option>
+  			<option>Objective Runner</option>
+  			<option>Any</option>
+  		</select>
+  		</div>
+
+  		<div class="col-sm-4 formPosPrefs">
+  		<label for="position2">Secondary Position</label>
+  		<select multiple class="form-control" id="position2" required>
+  			<option>Queen</option>
+  			<option>Speed Warrior</option>
+  			<option>Flex/Vanilla Warrior</option>
+  			<option>Objective Runner</option>
+  			<option>Any</option>
+  		</select>
+  		</div>
+  	</div>
+
+  	<input type="submit" value="submit" class="btn btn-default">
+  	<button type="button" class="btn btn-default" id="formStartButton">start</button>
+</form>
+
+
+<div id="sets">
+
+<a href="#" class="col-md-1" id="leftArrow"><img src="left arrow.png"></a>
+
+<!-- CURRENT PLAYERS -->
+<div id="current" class="col-md-5">
+	<h2 id="currentSetTitle">Current Set</h2>
+	<div class="row setColumn" id="currentSetColumn">
+	<!-- 	<div id="currentPickedPlayers">
+			
+		</div> -->
+		<div class="row" id="currentSetInnerColumn"> <!-- Column -->
+		<div class="col-md-6" id="currentBlueTeam">
+			<div class="currentPickedQueen"></div>
+
+
+		</div>
+		<div class="col-md-6" id="currentGoldTeam">
+			<div class="currentPickedQueen"></div>
+
+		</div>
+		</div>
+	</div>
+	<!-- Possible score here -->
+	<button type="button" class="btn btn-default" id="nextSetButton">Next Set</button>
+</div>
+
+<a href="#" class="col-md-1" id="rightArrow"><img src="right arrow.png"></a>
+
+</div><!-- /DIV SETS -->
+
+
+
+
+</div> <!-- /DIV MAIN COLUMN -->
+
+ <!-- PLAYER LIST -->
+
+<div class="col-md-2">
+<div id="beeList">
+	<h2 id="beeListTitle">Bees</h2>
+	<div class="playerTag">A</div>
+	<div class="playerTag">B</div>
+	<div class="playerTag">C</div>	
+	<div class="playerTag">D</div>
+	<div class="playerTag">E</div>
+	<div class="playerTag">F</div>
+	<div class="playerTag">G</div>
+	<div class="playerTag">H</div>
+	<div class="playerTag">I</div>
+	<div class="playerTag">J</div>
+</div>
+</div>
+
+
+
+
+</div> <!-- /DIV MAIN ROW -->
+</div> <!-- /DIV CONTAINER -->
+
+
+
+
+
+<!-- SCRIPT -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+  integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+  crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+body{
+	background-image: url("background.jpg");
+	/*background-repeat: repeat;*/
+}
+.navbar {
+	
+	background-color: #000033;
+	padding-bottom: 5px;
+	display: flex;
+	justify-content: center;
+	color: white;
+	list-style: none;
+	text-align: center;
+}
+
+.textButtons{
+	text-decoration: none;
+	color:white !important;
+	position: relative;
+	font:3rem'Lato', sans-serif;
+	top: 20px;
+
+}
+
+#siteTitle{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 5rem;
+	position: relative;
+	top: 10px;
+}
+
+h2{
+	padding-left: 10px;
+	padding-bottom: 15px;
+	font-family: 'Lato', sans-serif;
+}
+
+#newPlayerForm {
+	background-color: #91ABD4;
+	border-radius: 15px;
+	min-height: 500px;
+	margin:0px 0px 0px -20%;
+	left: 50%;
+}
+
+.formPosPrefs{
+	padding: 5px;	
+	border-color: red !important;
+}
+
+#beeList{
+	background-color: #F8EC0F;
+	border-radius: 10px;
+	min-height: 500px;
+	text-align: left;
+	float: right;
+	width: 95%;
+	height: 100%;
+}
+
+
+#beeListTitle{
+	padding-bottom: 0px;
+}
+
+.playerTag{
+	background-color: white;
+	display: block;
+	border-radius: 5px;
+	border:1.5px solid black;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 1px;
+	width: 95%;
+	padding-bottom: 2.5px;
+	padding-top: 2.5px;
+
+}
+
+#sets img{
+	width: 100px;
+	position: relative;
+	left: 100%;
+	display:none;
+}
+
+#current{
+	border-radius: 10px;
+	background-color: #CD7E2C;
+	align-content: center;
+	min-height:500px;
+	margin:0px 0px 0px -20%;
+	left: 50%;
+	
+}
+
+#currentSetTitle{
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+#currentSetColumn{
+	border: 3px solid black;
+	border-radius: 20px;
+	background-color: white;
+	width: 90%;
+	margin:auto;
+	height:100%;
+}
+
+#currentPickedPlayers{
+	background-color: gray;
+	border-radius:15px 15px 0px 0px; 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding:5px 0px 3px 0px;
+}
+
+#currentPickedPlayers .playerTag{
+	width:42%;
+	margin-bottom: 3px;
+}
+#currentPickedQueens .playerTag{
+	
+}
+
+#currentSetInnerColumn{
+	margin:auto;
+	height: 100%;
+	min-height: 150px;
+
+}
+#currentBlueTeam{
+	padding:5px 0px 5px 0px;
+	border-radius: 15px 0px 0px 15px;
+	background-color: blue;
+	height: 100%;
+	min-height: 150px;
+}
+#currentGoldTeam{
+	padding:5px 0px 5px 0px;
+	border-radius: 0px 15px 15px 0px;
+	background-color: gold;
+	height: 100%;
+	min-height: 150px;
+}
+
+#nextSetButton{
+	margin: 50px auto 5px 40%;
+}

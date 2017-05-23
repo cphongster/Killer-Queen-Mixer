@@ -1,0 +1,4 @@
+["A","B","C","D","E","F","G","H","I","J"]
+["A","A","A","B","B","B","C","D"]
+["Queen","Queen","Speed Warrior","Speed Warrior","Speed Warrior","Speed Warrior","Flex/Vanilla Warrior","Flex/Vanilla Warrior","Flex/Vanilla Warrior","Flex/Vanilla Warrior"]         
+["Speed Warrior","Flex/Vanilla Warrior","Queen","Objective Runner","Objective Runner","Flex/Vanilla Warrior","Speed Warrior","Objective Runner","Any","Any"]

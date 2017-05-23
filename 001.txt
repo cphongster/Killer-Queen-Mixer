@@ -1,0 +1,106 @@
+playerList=[ 
+player={ 
+	"id":"001",
+	"name":"a",
+	"queenPref":"Most of the Time",
+	"pos1":"Queen",
+	"pos2":"Speed Warrior" },
+player={ 
+	"id":"002",
+	"name":"b",
+	"queenPref":"Most of the Time",
+	"pos1":"Queen",
+	"pos2":"Flex/Vanilla Warrior" },
+player={ 
+	"id":"003",
+	"name":"c",
+	"queenPref":"Sometimes/Can Queen",
+	"pos1":"Speed Warrior",
+	"pos2":"Queen" },
+player={ 
+	"id":"004",
+	"name":"d",
+	"queenPref":"Sometimes/Can Queen",
+	"pos1":"Speed Warrior",
+	"pos2":"Objective Runner" },
+player={ 
+	"id":"005",
+	"name":"e",
+	"queenPref":"Literally Never",
+	"pos1":"Speed Warrior",
+	"pos2":"Objective Runner" },
+player={ 
+	"id":"006",
+	"name":"f",
+	"queenPref":"Literally Never",
+	"pos1":"Speed Warrior",
+	"pos2":"Flex/Vanilla Warrior" },
+player={ 
+	"id":"007",
+	"name":"g",
+	"queenPref":"Literally Never",
+	"pos1":"Speed Warrior",
+	"pos2":"Any" },
+player={ 
+	"id":"008",
+	"name":"h",
+	"queenPref":"Literally Never",
+	"pos1":"Flex/Vanilla Warrior",
+	"pos2":"Speed Warrior" },
+player={ 
+	"id":"009",
+	"name":"i",
+	"queenPref":"Literally Never",
+	"pos1":"Flex/Vanilla Warrior",
+	"pos2":"Speed Warrior" },
+player={ 
+	"id":"010",
+	"name":"j",
+	"queenPref":"Literally Never",
+	"pos1":"Flex/Vanilla Warrior",
+	"pos2":"Speed Warrior" },
+player={ 
+	"id":"011",
+	"name":"k",
+	"queenPref":"Literally Never",
+	"pos1":"Flex/Vanilla Warrior",
+	"pos2":"Speed Warrior" },
+player={ 
+	"id":"012",
+	"name":"l",
+	"queenPref":"Literally Never",
+	"pos1":"Flex/Vanilla Warrior",
+	"pos2":"Objective Runner" },
+player={ 
+	"id":"013",
+	"name":"m",
+	"queenPref":"Literally Never",
+	"pos1":"Flex/Vanilla Warrior",
+	"pos2":"Any" },
+player={ 
+	"id":"014",
+	"name":"n",
+	"queenPref":"Literally Never",
+	"pos1":"Flex/Vanilla Warrior",
+	"pos2":"Any" },
+
+player={ 
+	"id":"015",
+	"name":"o",
+	"queenPref":"Literally Never",
+	"pos1":"Flex/Vanilla Warrior",
+	"pos2":"Objective Runner" },
+player={ 
+	"id":"016",
+	"name":"p",
+	"queenPref":"Literally Never",
+	"pos1":"Objective Runner",
+	"pos2":"Speed Warrior" },
+player={ 
+	"id":"017",
+	"name":"q",
+	"queenPref":"Literally Never",
+	"pos1":"Any",
+	"pos2":"Any" }]
+
+
